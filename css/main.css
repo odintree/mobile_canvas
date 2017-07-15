@@ -1,0 +1,97 @@
+picture {
+    background: red;
+}
+
+#canvas {
+    border-style:solid;
+    border-width:1px;
+}
+
+#picture {
+    margin: auto;
+    background: red;
+    width: 500px;
+
+
+
+}
+#picbox {
+    position: relative;
+
+}
+.ic-box{
+    position: absolute;
+}
+
+.icon {
+    width: 50px
+}
+#mobile {
+      display: block;
+      margin: 0 auto; 
+}
+
+
+#i1 {
+    position: absolute;
+    top: 77%;
+    left: 15%;
+}
+
+
+#i2 {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    
+}
+
+#i3 {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
+#i4 {
+    position: abswhaolute;
+    top: 65%;
+    left: 70%;
+}
+
+#i5 {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+#i6 {
+    position: absolute;
+    top: 45%;
+    left: 70%; 
+}
+
+#i7 {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+}
+
+#i8 {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+
+
+#i9 {
+    position: absolute;
+    top: 45%;
+    left: 45%; 
+}
+
+#i10 {
+    position: absolute;
+    top: 35%;
+    left: 70%; 
+}
