@@ -1,6 +1,3 @@
-picture {
-    background: red;
-}
 
 #canvas {
     border-style:solid;
@@ -8,12 +5,20 @@ picture {
 }
 
 #picture {
-    margin: auto;
+    margin-left: 25%;
     background: red;
     width: 500px;
+}
 
 
+.wholeBox {
+    display: inline-block;
+}
 
+
+#textbox {
+    margin-left: 50%;
+    background: yellow;
 }
 #picbox {
     position: relative;
@@ -25,6 +30,10 @@ picture {
 
 .icon {
     width: 50px
+}
+
+.icon:hover {
+    background: green;
 }
 #mobile {
       display: block;

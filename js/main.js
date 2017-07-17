@@ -1,38 +1,24 @@
-$(function() {
 
-    animateLine = function(canvas, hoverDivName, colorNumber, pathString) {
-        $('#' + hoverDivName).hover(
-
-        function() {
-            var line = canvas.path(pathString).attr({
-                stroke: colorNumber
-            });
-            var length = line.getTotalLength();
-
-            $('path[fill*="none"]').animate({
-                'to': 1
-            }, {
-                duration: 800,
-                step: function(pos, fx) {
-                    var offset = length * fx.pos;
-                    var subpath = line.getSubpath(0, offset);
-                    canvas.clear();
-                    canvas.path(subpath).attr({
-                        'stroke-width': 1,
-                        stroke: colorNumber
-                    });
-
-                },
-            });
-        }, function() {
-            $('path[fill*="none"]').stop(true, false).fadeOut();
-        });
-    };
-
-    var canvas = Raphael('canvas', 200, 200);
-    var pathString = "m33 200, l0, -50,l100,0, l0,10";
-
-    animateLine(canvas, "canvas", "#000", pathString);
+    var text = 
+        {
+        'i1': '11111',
+        i2: '2222',
+        i3: '33333',
+        i4: '44444',
+        i5: '5555',
+        i6: '6666',
+        i7: '77777',
+        i8: '888888',
+        i9: '99999',
+        i10: '1010101'
+        }
 
 
-});
+
+    function showText (id) {
+        document.getElementById("textbox").innerHTML = this.text[id];
+        console.log(this.text[id]);
+        console.log(id);
+
+    }
+
