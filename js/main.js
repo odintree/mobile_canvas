@@ -15,10 +15,15 @@
 
 
 
-    function showText (id) {
+    var showText = function  (id) {
         document.getElementById("textbox").innerHTML = this.text[id];
         console.log(this.text[id]);
         console.log(id);
+
+    }
+
+    var hidetext = function () {
+        document.getElementById("textbox").innerHTML = 'Hover on the icon to see the instruction' ;
 
     }
 
