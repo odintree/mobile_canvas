@@ -1,36 +1,119 @@
 <html>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <head>
         <meta charset="utf-8">
-        <title>Untitled Document</title>
+        <title>Vad är TMPL?</title>
+
+        <script>
+            function startTime() {
+                var today = new Date();
+                var h = today.getHours();
+                var m = today.getMinutes();
+                var s = today.getSeconds();
+                m = checkTime(m);
+                s = checkTime(s);
+                document.getElementById('txt').innerHTML =
+                h + ":" + m;
+                var t = setTimeout(startTime, 500);
+            }
+            function checkTime(i) {
+                if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                return i;
+            }
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:300,400" rel="stylesheet">
+
     </head>
-    <body>
+    <body onload="startTime()">
         <div class="wholeBox container"> 
             <div class="row"> 
                 <div id="picture" class="col-lg-3"> 
                     <div id="picbox">
-                        <img src="mobile_img/Ikoner/mall-mobil.png" id="mobile">
-                        <div class="ic-box" id="i1"onmouseover="showText(this.id)" onmouseout="hidetext()" ><img src="mobile_img/Ikoner/01.png" class="icon" ></div>
-                        <div class="ic-box" id="i2" onmouseover="showText(this.id)" onmouseout="hidetext()" ><img src="mobile_img/Ikoner/02.png" class="icon" ></div>
-                        <div class="ic-box" id="i3" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/22.png" class="icon" ></div>
-                        <div class="ic-box" id="i4" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/24.png" class="icon" ></div>
-                        <div class="ic-box" id="i5" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/28.png" class="icon"></div>
-                        <div class="ic-box" id="i6" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/33.png" class="icon" ></div>
-                        <div class="ic-box" id="i7" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/43.png" class="icon" ></div>
-                        <div class="ic-box" id="i8" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/54.png" class="icon" ></div>
-                        <div class="ic-box" id="i9" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/55.png" class="icon" ></div>
-                        <div class="ic-box" id="i10" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/56.png" class="icon" ></div>
+                        <img src="mobile_img/Ikoner/tmplmallmobil.png" id="mobile">
+
+                   <!--     <div class="clock" id="txt"></div> -->
+
+                        <div id="headlinemobile" class="ic-box"></div>
+
+                        <div class="ic-box" id="i1"onmouseover="showText(this.id)" onmouseout="hidetext()" ><img src="mobile_img/Ikoner/01.png" id="settingsicon" class="icon" >
+                        </div>
+                       
+                        <div class="ic-box secondCol" id="i2" onmouseover="showText(this.id)" onmouseout="hidetext()" ><img src="mobile_img/Ikoner/02.png" class="icon" >
+                            <div id="servicetext" class="text">Tjänster</div>
+                            <div id="serviceline" class="rightsideline"></div>
+                        </div>
+                        
+                        <div class="ic-box secondCol" id="i3" onmouseover="showText(this.id)" onmouseout="hidetext()">
+                            <img src="mobile_img/Ikoner/22.png" class="icon" >
+                            <div id="locktext" class="text">Lås</div>
+
+                            <div class="rightsideline"></div>
+                        </div>
+
+                        <!-- TOP ICONS UNDERLINES -->
+
+                        <div class="iconunderline"> </div>
+                        <div class="iconunderline" id="middleline"> </div>
+                        <div class="iconunderline" id="rightline"> </div>
+
+                        <!-- /////TOP ICONS UNDERLINES END///// -->
+
+
+
+                        <div class="ic-box thirdCol" id="i4" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/24.png" class="icon" >
+                            <div id="consumetext" class="text">Förbrukning</div>
+                        </div>
+
+
+                        <div class="ic-box firstCol" id="i5" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/28.png" class="icon">
+                            <div id="boparm" class="text">Bopärmen</div>
+                            <div id="boparmunderline" class="rightsideline"></div>
+                        </div>
+                        
+                        <div class="ic-box thirdCol" id="i6" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/33.png" class="icon" >
+                            <div id="bookresource" class="text">Resurser</div>
+                        </div>
+
+                         <!-- BOTTOM BIG DIVIDER ICONS UNDERLINES -->
+                        <div class="staff-top"> </div>
+                         <!-- ///// BOTTOM BIG DIVIDER ICONS UNDERLINES ENDS ///// -->
+
+
+
+                        <div class="ic-box firstCol" id="i7" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/43.png" class="icon" >
+                            <div id="smarttext" class="text">Smarta Hem</div>
+                            <div id="smartline" class="rightsideline"></div>
+                        </div>
+                        
+                        <div class="ic-box firstCol" id="i8" onmouseover="showText(this.id)" onmouseout="hidetext()">
+                             <img src="mobile_img/Ikoner/54.png" class="icon" >
+                                <div class="text">Flöde</div>
+                                  <div class="rightsideline"></div>
+                        </div>
+
+
+                        <div class="ic-box secondCol" id="i9" onmouseover="showText(this.id)" onmouseout="hidetext()">
+                            <img src="mobile_img/Ikoner/55.png" class="icon" >                            
+                            <div id="contacttext" class="text">Kontakt</div>
+                            <div id="contactsideline" class="rightsideline"></div>
+                        </div>
+
+                        <div class="ic-box thirdCol" id="i10" onmouseover="showText(this.id)" onmouseout="hidetext()"><img src="mobile_img/Ikoner/56.png" class="icon" >
+                                <div id="reporttext" class="text">Rapportera</div>
+
+                        </div>
                     </div>
                 
                 </div>
 
-                <div id="textbox" col-lg-3> Hover on the icon to see the instruction </div>
             </div> 
         </div>
 
+        <div id="textbox" class="col-lg-3"> Hover on the icon to see the instruction </div>
 
 
-    <script src="js/main.js"></script>
+    <script src="js/mobile.js"></script>
+
 
 </html>
