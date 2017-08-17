@@ -45,7 +45,7 @@
 }
 
 .icon {
-    width: 50px;
+    width: 30px;
 }
 
 .icon:hover {
@@ -58,7 +58,7 @@
 #mobile {
       display: block;
       margin: 0 auto; 
-      height: 90%;
+      height: 800px;
 }
 
 
@@ -85,31 +85,31 @@
 #i4 {
     position: absolute;
     top: 65%;
-    left: 70%;
+    left: 65%;
 }
 
 #i5 {
     position: absolute;
     top: 45%;
-    left: 20%;
+    left: 30%;
 }
 
 #i6 {
     position: absolute;
     top: 45%;
-    left: 70%; 
+    left: 65%; 
 }
 
 #i7 {
     position: absolute;
     top: 65%;
-    left: 20%;
+    left: 30%;
 }
 
 #i8 {
     position: absolute;
     top: 35%;
-    left: 20%;
+    left: 30%;
 }
 
 
@@ -123,7 +123,7 @@
 #i10 {
     position: absolute;
     top: 35%;
-    left: 70%; 
+    left: 65%; 
 }
 
 .staff-top, .staff-bot, .staff-top-last, .staff-bot-last {
