@@ -15,15 +15,15 @@
     
     var coordinate = {
         i1: 900, 
-        i2: 470,
-        i3: 850,
-        i4:850,
-        i5: 580,
-        i6: 580,
-        i7:850,
-        i8: 470,
-        i9: 580,
-        i10: 470,
+        i2: 310,
+        i3: 590,
+        i4: 590,
+        i5: 400,
+        i6: 400,
+        i7: 590,
+        i8: 310,
+        i9: 400,
+        i10: 310,
 
     }
 
@@ -31,7 +31,8 @@
 
     var showText = function  (id) {
 
-        leftSide = -1100; 
+        leftSide = -1010; 
+        rightSide = -100; 
 
         document.getElementById("textbox").innerHTML = this.text[id];
         document.getElementById("textbox").style.top = this.coordinate[id] + 'px';
@@ -49,7 +50,7 @@
                 document.getElementById("textbox").style.left = leftSide + 'px';
                 break;  
             default: 
-                document.getElementById("textbox").style.left = 0 + 'px';
+                document.getElementById("textbox").style.left = rightSide + 'px';
         } 
 
 
