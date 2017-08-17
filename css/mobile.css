@@ -55,61 +55,67 @@
     filter: drop-shadow(0 0 8px black);              /* FF~35 */
     filter: drop-shadow(0 0 0 8px black);              /* MDN */
 }
+
+.firstCol {
+    left: 36%;
+}
+
+.secondCol {
+    left: 47%; 
+}
+
+.thirdCol {
+    left:58%; 
+}
+
 #mobile {
       display: block;
       margin: 0 auto; 
-      height: 800px;
+      height: 700px;
 }
 
 
 #i1 {
     position: absolute;
     top: 77%;
-    left: 15%;
+    left: 31%; 
 }
 
 
 #i2 {
     position: absolute;
     top: 35%;
-    left: 45%;
     
 }
 
 #i3 {
     position: absolute;
     top: 65%;
-    left: 45%;
 }
 
 #i4 {
     position: absolute;
     top: 65%;
-    left: 65%;
 }
 
 #i5 {
     position: absolute;
     top: 45%;
-    left: 30%;
 }
 
 #i6 {
     position: absolute;
     top: 45%;
-    left: 65%; 
 }
 
 #i7 {
     position: absolute;
     top: 65%;
-    left: 30%;
 }
 
 #i8 {
     position: absolute;
     top: 35%;
-    left: 30%;
 }
 
 
@@ -117,13 +123,11 @@
 #i9 {
     position: absolute;
     top: 45%;
-    left: 45%; 
 }
 
 #i10 {
     position: absolute;
     top: 35%;
-    left: 65%; 
 }
 
 .staff-top, .staff-bot, .staff-top-last, .staff-bot-last {
