@@ -41,7 +41,9 @@
 }
 
 #settingsicon {
-    width: 35px;
+       width: 20px;
+    margin-top: 36px;
+    margin-left: 19px;
 }
 
 .icon {
@@ -50,10 +52,10 @@
 
 .icon:hover {
     background: ;
-        -webkit-filter: drop-shadow(0 0 8px black); /* webkit only 
+        -webkit-filter: drop-shadow(0 0 3px black); /* webkit only 
                      assuming the content is written in black */
-    filter: drop-shadow(0 0 8px black);              /* FF~35 */
-    filter: drop-shadow(0 0 0 8px black);              /* MDN */
+    filter: drop-shadow(0 0 3px black);              /* FF~35 */
+    filter: drop-shadow(0 0 0 3px black);              /* MDN */
 }
 
 .firstCol {
@@ -134,14 +136,14 @@
     padding-right: 0px !important;
     padding-left: 0px !important;
     position: relative;
-    bottom: 550;
-    left: 100;
+    bottom: 277px;
+    left: 225px;
 
 }
 
 .staff-top, .staff-bot, .staff-top-last {
   border-bottom: 1px white solid;
-  width: 450px;
+    width: 216px;
 }
 
 
@@ -152,20 +154,17 @@
 .iconunderline, .iconunderline, .iconunderline-last {
     border-bottom: 1px white solid;
     position: relative;
-    bottom: 761;
-    left: 95;
-    width: 120px;
-}
+left: 220px;
+    bottom: 380px;
+    width: 59px;}
 
 #middleline {
-    left: 260;
-    bottom: 762;
-
+    left: 291px;
+    bottom: 381px;
 }
 #rightline {
-    left: 423;
-    bottom: 764;
-
+    left: 362px;
+    bottom: 383px;
 }
 
 
@@ -191,11 +190,10 @@
 
 }
 .rightsideline {
-    border-right: 1px solid white;
-    height: 90px;
-    margin-left: 30px;
-    margin-right: -56px;
-    margin-top: -80;
+     border-right: 1px solid white;
+    height: 50px;
+    margin-right: -21px;
+margin-top: -52px;
 }
 
 #headlinemobile {
@@ -218,29 +216,29 @@
     color: white;
     margin-left: 4;
     margin-top: 5;
-    font-size: 17px;
+    font-size: 10px;
     font-family: 'Roboto', serif;
 }
 
 #servicetext {
-    margin-left: 0;
+    margin-left:  -3px;
     font-family: 'Roboto', serif;
 }
 
 #serviceline {
-    margin-right: -45px;
+    margin-right: -14px;
 }
 
 #reporttext {
-    margin-left: -15px 
+    margin-left: -10px;
 }
 
 #boparm {
-    margin-left: -11;
+   margin-left: -8px;
 }
 
 #boparmunderline {
-    margin-right: -39px;
+    margin-right: -13px;
 }
 
 #contacttext {
@@ -248,27 +246,25 @@
 }
 
 #contactsideline {
-    margin-right: -53px;
+    margin-right: -17px;
 }
 
 #bookresource {
-    margin-left: -8;
+    margin-left: -3px;
 }
 
 #smarttext {
-    margin-left: -17;
+ margin-left: -14px;
 }
 
 #smartline {
-    margin-right: -30;
-}
+    margin-right: -10px;}
 
 #locktext {
-    margin-left: 10;
-}
+margin-left: 7px;}
 
 #consumetext {
-    margin-left: -15;
+    margin-left: -10px;
 }
 
 #txt {
