@@ -36,23 +36,7 @@
 
         document.getElementById("textbox").innerHTML = this.text[id];
         document.getElementById("textbox").style.top = this.coordinate[id] + '%';
-        switch(id) {
-            case 'i1': 
-                document.getElementById("textbox").style.left = leftSide + '%';
-                break;
-            case 'i5':
-                document.getElementById("textbox").style.left = leftSide + '%';
-                break;
-            case 'i7':
-                document.getElementById("textbox").style.left = leftSide + '%';
-                break;
-            case 'i8':
-                document.getElementById("textbox").style.left = leftSide + '%';
-                break;  
-            default: 
-                document.getElementById("textbox").style.left = rightSide + '%';
-        } 
-
+        document.getElementById("textbox").style.left = rightSide + '%';
 
         console.log(this.text[id]);
         console.log(id);
