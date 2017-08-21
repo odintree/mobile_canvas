@@ -35,7 +35,7 @@
     position: relative;
     margin-left:50%;
     width: 650px;
-}
+}icon
 .ic-box{
     position: absolute;
 }
@@ -71,7 +71,7 @@
 #mobile {
       display: block;
       margin: 0 auto; 
-      height: 700px;
+      width: 50%;
 }
 
 
