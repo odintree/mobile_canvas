@@ -15,15 +15,15 @@
     
     var coordinate = {
         i1: 900, 
-        i2: 310,
-        i3: 590,
-        i4: 590,
-        i5: 400,
-        i6: 400,
-        i7: 590,
-        i8: 310,
-        i9: 400,
-        i10: 310,
+        i2: 32,
+        i3: 65,
+        i4: 65,
+        i5: 46,
+        i6: 46,
+        i7: 65,
+        i8: 32,
+        i9: 46,
+        i10: 32,
 
     }
 
@@ -31,26 +31,26 @@
 
     var showText = function  (id) {
 
-        leftSide = -1010; 
-        rightSide = -100; 
+        leftSide = -51; 
+        rightSide = -8; 
 
         document.getElementById("textbox").innerHTML = this.text[id];
-        document.getElementById("textbox").style.top = this.coordinate[id] + 'px';
+        document.getElementById("textbox").style.top = this.coordinate[id] + '%';
         switch(id) {
             case 'i1': 
-                document.getElementById("textbox").style.left = leftSide + 'px';
+                document.getElementById("textbox").style.left = leftSide + '%';
                 break;
             case 'i5':
-                document.getElementById("textbox").style.left = leftSide + 'px';
+                document.getElementById("textbox").style.left = leftSide + '%';
                 break;
             case 'i7':
-                document.getElementById("textbox").style.left = leftSide + 'px';
+                document.getElementById("textbox").style.left = leftSide + '%';
                 break;
             case 'i8':
-                document.getElementById("textbox").style.left = leftSide + 'px';
+                document.getElementById("textbox").style.left = leftSide + '%';
                 break;  
             default: 
-                document.getElementById("textbox").style.left = rightSide + 'px';
+                document.getElementById("textbox").style.left = rightSide + '%';
         } 
 
 
